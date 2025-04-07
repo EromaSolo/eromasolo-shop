@@ -1,1 +1,0 @@
-# eromasolo-shop
