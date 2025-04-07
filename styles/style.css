@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d1117;
+  color: white;
+  text-align: center;
+}
+
+.main-header {
+  padding: 50px 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.animate-logo:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.green {
+  color: #00ff88;
+}
+
+p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.btn {
+  background-color: #00ff88;
+  color: #0d1117;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00cc66;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #0c0c0c;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background-color: #161b22;
+  border: 1px solid #00ff88;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  color: white;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+.catalog-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #0d1b2a; /* тёмно-синий */
+  color: #fff;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.2); /* зелёная подсветка */
+  transition: transform 0.2s ease;
+}
+
+.catalog-item:hover {
+  transform: scale(1.05);
+}
+
+.catalog-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.catalog-item button {
+  background-color: #00ff88; /* ярко-зелёный */
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.catalog-item button:hover {
+  background-color: #00cc66;
+}
